@@ -18,17 +18,17 @@ Code your `application.js`
 ```js
 "use strict";
 
-# the module
+// the module
 var tarjetaSUBE = require('tarjetasube');
 
-# the cardnumber
+// the cardnumber
 var cardnumber = "6061268880223199";
 
-# go go go!
+// go go go!
 if (tarjetaSUBE.isValid(cardnumber)) {
 	console.log(`Yes! ${cardnumber} is a valid Tarjeta SUBE number.`);
 } else {
-	console.log(`Ooops... ${cardnumber} looks like an invalid Tarjeta SUBE number.);
+	console.log(`Ooops... ${cardnumber} looks like an invalid Tarjeta SUBE number.`);
 }
 
 ```
